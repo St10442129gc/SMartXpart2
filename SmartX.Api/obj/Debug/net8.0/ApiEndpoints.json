@@ -1,0 +1,813 @@
+[
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_15",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommands\u003Eb__3_0",
+    "RelativePath": "api/commands/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.IssueCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - commands"
+    ],
+    "EndpointName": "IssueCommand"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommands\u003Eb__3_2",
+    "RelativePath": "api/commands/history",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - commands"
+    ],
+    "EndpointName": "GetCommandHistory"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapCommands\u003Eb__3_1",
+    "RelativePath": "api/commands/undo",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - commands"
+    ],
+    "EndpointName": "UndoLastCommand"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_13",
+    "RelativePath": "api/deployment/validate",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.DeploymentValidationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ValidateDeploymentTree"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapInsights\u003Eb__4_0",
+    "RelativePath": "api/insights/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Insights"
+    ],
+    "EndpointName": "GetInsights"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapInsights\u003Eb__4_2",
+    "RelativePath": "api/insights/dismiss",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.DismissRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Insights"
+    ],
+    "EndpointName": "DismissSuggestion"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapInsights\u003Eb__4_1",
+    "RelativePath": "api/insights/search",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.SearchEventRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Insights"
+    ],
+    "EndpointName": "RecordSearch"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapInsights\u003Eb__4_3",
+    "RelativePath": "api/insights/train-sample",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Insights"
+    ],
+    "EndpointName": "LoadSampleOperatorHistory"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_3",
+    "RelativePath": "api/sensors",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.RegisterSensorRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RegisterSensor"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_4",
+    "RelativePath": "api/sensors",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "ListSensors"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_14",
+    "RelativePath": "api/sensors/aggregate",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.AggregateReadingsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "AggregateSensorReadings"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_5",
+    "RelativePath": "api/sensors/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSensor"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__6",
+    "RelativePath": "api/sensors/{id}/media",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "UploadSensorMedia"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__7",
+    "RelativePath": "api/sensors/{id}/media/{fileName}/download",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileName",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "DownloadSensorMedia"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSimulatorControl\u003Eb__5_0",
+    "RelativePath": "api/simulator/scenarios",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Services.ScenarioRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Simulator control"
+    ],
+    "EndpointName": "RequestSimulatorScenario"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSimulatorControl\u003Eb__5_1",
+    "RelativePath": "api/simulator/scenarios/next",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Simulator control"
+    ],
+    "EndpointName": "TakeSimulatorScenarios"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapSimulatorControl\u003Eb__5_2",
+    "RelativePath": "api/simulator/status",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Simulator control"
+    ],
+    "EndpointName": "GetSimulatorStatus"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDeviceFacing\u003Eb__1_0",
+    "RelativePath": "api/stream/devices",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.RegisterDeviceRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - devices"
+    ],
+    "EndpointName": "RegisterStreamDevice"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_0",
+    "RelativePath": "api/stream/devices",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "search",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "alert",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "SearchStreamDevices"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_2",
+    "RelativePath": "api/stream/devices/{mac}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mac",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "GetStreamDevice"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDeviceFacing\u003Eb__1_3",
+    "RelativePath": "api/stream/devices/{mac}/commands",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mac",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - devices"
+    ],
+    "EndpointName": "PollDeviceCommands"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDeviceFacing\u003Eb__1_2",
+    "RelativePath": "api/stream/devices/{mac}/disconnect",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mac",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - devices"
+    ],
+    "EndpointName": "ReportDeviceDisconnect"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_3",
+    "RelativePath": "api/stream/devices/{mac}/history",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mac",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "minutes",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "GetStreamDeviceHistory"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_4",
+    "RelativePath": "api/stream/overview",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "GetStreamOverview"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_5",
+    "RelativePath": "api/stream/processing/pause",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "PauseProcessing"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_6",
+    "RelativePath": "api/stream/processing/resume",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "ResumeProcessing"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_7",
+    "RelativePath": "api/stream/processing/settings",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.ProcessingSettingsRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "UpdateProcessingSettings"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDashboardFacing\u003Eb__2_1",
+    "RelativePath": "api/stream/sparklines",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "take",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - dashboard"
+    ],
+    "EndpointName": "GetStreamSparklines"
+  },
+  {
+    "ContainingType": "SmartX.Api.Endpoints.CommandStreamEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapDeviceFacing\u003Eb__1_1",
+    "RelativePath": "api/stream/telemetry",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.DeviceTelemetryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "Command Stream - devices"
+    ],
+    "EndpointName": "SubmitStreamTelemetry"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_8",
+    "RelativePath": "api/telemetry",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.IngestTelemetryRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "IngestTelemetry"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_12",
+    "RelativePath": "api/telemetry/batch",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartX.Api.Models.IngestBatchRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "IngestBatch"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_11",
+    "RelativePath": "api/telemetry/feed",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "take",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetTelemetryFeed"
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__0_10",
+    "RelativePath": "api/telemetry/{deviceId}/disconnect",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deviceId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "SimulateDisconnect"
+  }
+]

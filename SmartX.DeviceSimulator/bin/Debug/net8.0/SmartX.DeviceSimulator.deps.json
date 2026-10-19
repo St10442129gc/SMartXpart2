@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "SmartX.DeviceSimulator/1.0.0": {
+        "runtime": {
+          "SmartX.DeviceSimulator.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SmartX.DeviceSimulator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

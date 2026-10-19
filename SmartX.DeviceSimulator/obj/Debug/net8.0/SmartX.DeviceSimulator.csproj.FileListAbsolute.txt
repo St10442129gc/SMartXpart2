@@ -1,0 +1,15 @@
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\bin\Debug\net8.0\SmartX.DeviceSimulator.exe
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\bin\Debug\net8.0\SmartX.DeviceSimulator.deps.json
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\bin\Debug\net8.0\SmartX.DeviceSimulator.runtimeconfig.json
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\bin\Debug\net8.0\SmartX.DeviceSimulator.dll
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\bin\Debug\net8.0\SmartX.DeviceSimulator.pdb
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.AssemblyInfoInputs.cache
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.AssemblyInfo.cs
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.csproj.CoreCompileInputs.cache
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.sourcelink.json
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.dll
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\refint\SmartX.DeviceSimulator.dll
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.pdb
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\SmartX.DeviceSimulator.genruntimeconfig.cache
+C:\Users\emeris\Downloads\SmartX-Part2\prog\SmartX.DeviceSimulator\obj\Debug\net8.0\ref\SmartX.DeviceSimulator.dll
